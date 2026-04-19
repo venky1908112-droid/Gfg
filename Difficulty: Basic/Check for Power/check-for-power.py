@@ -6,7 +6,6 @@ class Solution:
             return y == 0
         if y == 1:
             return True
-            
         while y % x == 0:
             y //= x
         return y == 1
